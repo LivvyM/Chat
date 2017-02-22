@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'org.greenrobot.greendao'
 
 android {
     compileSdkVersion Integer.parseInt(project.ANDROID_BUILD_SDK_VERSION)
@@ -21,9 +22,9 @@ android {
     }
 }
 
-//greendao {
-//    schemaVersion 1
-//}
+greendao {
+    schemaVersion 2
+}
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])

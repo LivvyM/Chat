@@ -1,6 +1,8 @@
 package cc.livvy.chatsdk.model;
 
 /**
+ * 消息体
+ *
  * Created by livvy on 17-2-21.
  */
 

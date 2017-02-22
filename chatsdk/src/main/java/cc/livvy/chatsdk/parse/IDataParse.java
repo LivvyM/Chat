@@ -11,7 +11,7 @@ public interface IDataParse {
     /**
      * 接收
      */
-    void receive();
+    void receive(byte[] data);
 
 
     /**
